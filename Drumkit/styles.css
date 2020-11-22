@@ -1,0 +1,47 @@
+html{
+    background-image: url(./images/1188555.jpg);
+    background-size: cover;
+}
+
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.Drum{
+    min-height: 100vh;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+    
+}
+.key{
+    font-family: sans-serif;
+    color: aliceblue;
+    margin: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 2px solid rgb(27, 0, 0);
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 0 0 10px rgb(66, 58, 10);
+    box-shadow: 0 0 10px rgb(66, 58, 10);
+    transition: all .07s ease;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+   
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+kbd {
+    display: block;
+    font-size: 4rem;
+  }
